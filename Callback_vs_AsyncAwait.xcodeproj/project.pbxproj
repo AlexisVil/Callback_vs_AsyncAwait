@@ -11,6 +11,8 @@
 		2911FBDE2B202E980012D8EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2911FBDD2B202E980012D8EB /* ContentView.swift */; };
 		2911FBE02B202E9A0012D8EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2911FBDF2B202E9A0012D8EB /* Assets.xcassets */; };
 		2911FBE32B202E9A0012D8EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2911FBE22B202E9A0012D8EB /* Preview Assets.xcassets */; };
+		2911FBEA2B202EC90012D8EB /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2911FBE92B202EC90012D8EB /* ViewModel.swift */; };
+		2911FBEC2B203A530012D8EB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2911FBEB2B203A530012D8EB /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		2911FBDD2B202E980012D8EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2911FBDF2B202E9A0012D8EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2911FBE22B202E9A0012D8EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2911FBE92B202EC90012D8EB /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		2911FBEB2B203A530012D8EB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		2911FBDA2B202E980012D8EB /* Callback_vs_AsyncAwait */ = {
 			isa = PBXGroup;
 			children = (
+				2911FBEB2B203A530012D8EB /* Model.swift */,
+				2911FBE92B202EC90012D8EB /* ViewModel.swift */,
 				2911FBDB2B202E980012D8EB /* Callback_vs_AsyncAwaitApp.swift */,
 				2911FBDD2B202E980012D8EB /* ContentView.swift */,
 				2911FBDF2B202E9A0012D8EB /* Assets.xcassets */,
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2911FBDE2B202E980012D8EB /* ContentView.swift in Sources */,
+				2911FBEA2B202EC90012D8EB /* ViewModel.swift in Sources */,
 				2911FBDC2B202E980012D8EB /* Callback_vs_AsyncAwaitApp.swift in Sources */,
+				2911FBEC2B203A530012D8EB /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
